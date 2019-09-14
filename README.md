@@ -30,15 +30,15 @@ Para comunicar los controladores de las luminarias con el servidor se propone la
    "data":{ 
       "led":{
          "voltage": Number,
-         "corriente": Number
+         "current": Number
       },
       "pv":{
          "voltage": Number,
-         "corriente": Number
+         "current": Number
       },
       "battery":{
          "voltage": Number,
-         "corriente": Number
+         "current": Number
       }
    }
 }
@@ -64,19 +64,18 @@ Para comunicar los controladores de las luminarias con el servidor se propone la
    "data":{ 
       "led":{
          "voltage": 38.5,
-         "corriente": 643.51
+         "current": 643.51
       },
       "pv":{
          "voltage": 21.3,
-         "corriente": 413.25
+         "current": 413.25
       },
       "battery":{
          "voltage": 13.7,
-         "corriente": 100.38
+         "current": 100.38
       }
    }
 }
-```
 
 ### `Servidor a Controlador`
  #### Tema "changeMode" 
@@ -111,6 +110,15 @@ Las posibles opciones de modeDriver son:
  #### "changeMode/{{deviceName}}"
  Cada uno de los dispositivos cuenta con un deviceName, esto permitira que cada uno de los dispositivos este suscrito a un tema en particular. La informacion recibida tendra la misma estructura que el tema "changeMode"
  
+ 
+####  Notas
+Se aconceja usar la funcion JSON.parse(message) en el lado del servidor para poder recuperar la informacion recibida (enviada por el controlador) en forma de objeto y acceder a cada uno de sus elementos. Ejemplo: 
+
+```js
+  JSON.parse(message)
+  var bCurrent = message.data.battery.corriente;
+```
+
 ## License
 Copyright 2019-2022 JDVR, Juan David Velasquez Rosero
 
