@@ -76,6 +76,7 @@ Para comunicar los controladores de las luminarias con el servidor se propone la
       }
    }
 }
+```
 
 ### `Servidor a Controlador`
  #### Tema "changeMode" 
