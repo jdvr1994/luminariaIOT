@@ -1,0 +1,52 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=impreso_iot_GND
+*Date=22:40:38
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;1k;THT;13.44;-23.4197;180;Bottom;R2
+2;;;37.1856;-67.0246;0;Bottom;Copper Fill1
+3;;;64.5414;-83.8394;0;Bottom;Copper Fill12
+4;;;64.0842;-47.8222;0;Bottom;Copper Fill5
+5;;THT;25.8654;-85.4171;90;Bottom;J2
+6;;;20.828;-9.6968;0;Bottom;Copper Fill8
+7;100;THT;35.792;-41.7077;-90;Bottom;R6
+8;;;70.8914;-18.409;0;Bottom;Copper Fill15
+9;;;18.2626;-9.6714;0;Bottom;Copper Fill9
+10;;THT;59.668;-61.5197;180;Bottom;LED
+11;;THT;25.9289;-45.7903;90;Bottom;J4
+12;;;42.1132;-48.889;0;Bottom;Copper Fill16
+13;;THT;9.8854;-45.7271;90;Bottom;J3
+14;12.2k;THT;22.33;-26.9757;-90;Bottom;R4
+15;;;63.0428;-44.571;0;Bottom;Copper Fill14
+16;;;43.18;-63.7734;0;Bottom;Copper Fill11
+17;;;68.4276;-88.4368;0;Bottom;Copper Fill2
+18;;;63.8556;-70.86;0;Bottom;Copper Fill3
+19;;;80.137;-11.7034;0;Bottom;Copper Fill17
+20;;;61.7728;-68.3454;0;Bottom;Copper Fill13
+21;;;41.3941;-66.7205;-90;Bottom;IMG1
+22;;;54.8155;-13.5137;180;Bottom;Argon
+23;;THT;37.9789;-91.4917;90;Bottom;IR led
+24;;THT;59.668;-84.6337;180;Bottom;Bateria
+25;1k;THT;42.396;-28.7537;180;Bottom;R5
+26;;TO92 [THT];38.2431;-33.7702;0;Bottom;Q1
+27;;;68.326;-65.272;0;Bottom;Copper Fill4
+28;;THT;48.9009;-91.4917;90;Bottom;GNDs
+29;;THT;59.668;-38.6597;180;Bottom;Panel
+30;1k;THT;25.632;-19.3557;-90;Bottom;R3
+31;;THT;9.8854;-85.4171;90;Bottom;J1
+32;12.2k;THT;21.06;-35.3577;180;Bottom;R1
+33;;DIP (Dual Inline) [THT];14.456;-11.7357;90;Bottom;IC2
+34;;;67.0814;-34.4364;0;Bottom;Copper Fill6
+35;;;67.8434;-67.5326;0;Bottom;Copper Fill10
+36;;;42.1132;-48.889;0;Bottom;Copper Fill7
+37;;;55.6006;-9.5698;0;Bottom;Copper Fill18
